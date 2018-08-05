@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <p><%= @question %></p>
+
+ <!--  <br> -->
+  <% if @question == "I am going to work" %>
+    <!-- <p>Great!</p> -->
+    <p><%= "Great!"%></p>
+  <% elsif @question.last == "?" %>
+    <p><%= "Silly question, get dressed and go to work!" %></p>
+  <% else %>
+    <p><%= "I don't care, get dressed and go to work!" %></p>
+  <% end %>
+  <!-- <br> -->
+  <p > <%= link_to "ask a new question",  ask_path, class: "link" %></p>
+</div>

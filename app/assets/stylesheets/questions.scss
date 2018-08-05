@@ -1,0 +1,24 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+  margin: 20px;
+  h1 {
+    margin: 20px;
+  }
+  p {
+    margin: 20px;
+  }
+  .form-inline {
+    margin-left: 20px;
+  }
+}
+
+.link {
+  color: purple;
+  &:hover{
+    text-decoration: none;
+  }
+}
